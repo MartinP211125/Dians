@@ -1,0 +1,1549 @@
+C:\Users\Martin\.jdks\openjdk-19\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.3\lib\idea_rt.jar=56640:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Martin\IdeaProjects\untitled5sd\out\production\untitled5sd PipeAndFilter
+START 0
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Игман"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Словенска"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="R1103"/>
+  <tag k="landuse" v="industrial"/>
+  <tag k="name" v="Тиквеш"/> ime na vinarija
+  <tag k="name:en" v="Tikvesh"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="highway" v="residential"/>
+  <tag k="highway" v="residential"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Косовска"/>  ulica
+  <tag k="highway" v="residential"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="R1103"/>
+  <tag k="addr:city" v="Кавадарци"/> grad
+  <tag k="addr:housenumber" v="16"/>
+  <tag k="addr:postcode" v="1430"/>
+  <tag k="addr:street" v="Косовска"/>
+  <tag k="building" v="yes"/>
+  <tag k="country" v="MKD"/>
+  <tag k="craft" v="winery"/>
+  <tag k="name" v="Zaharchev Winery and Distillery"/>
+  <tag k="name:mk" v="Семејна винарија „Захарчев“"/>
+  <tag k="opening_hours" v="Mo-Su 08:00-22:00"/> rabotno vreme
+  <tag k="operator" v="SJ"/>
+  <tag k="phone" v="070 253 103"/> broj
+  <tag k="website" v="https://www.zaharchev.mk/"/> web site
+  <tag k="from" v="Lakavica"/>
+  <tag k="network" v="mk:national"/>
+  <tag k="ref" v="R1103"/>
+  <tag k="route" v="road"/>
+  <tag k="to" v="Drenovo"/>
+  <tag k="type" v="route"/>
+  <tag k="wikidata" v="Q104531746"/>
+START 1
+  <tag k="addr:postcode" v="1440"/>
+  <tag k="addr:street" v="Индустриска"/>
+  <tag k="email" v="bovin@t.mk"/>
+  <tag k="name" v="Бовин винарија"/>
+  <tag k="name:en" v="Bovin Winery"/>
+  <tag k="name:hr" v="Bovin vinarija"/>
+  <tag k="name:ru" v="Бовин"/>
+  <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+  <tag k="phone" v="043365322"/>
+  <tag k="shop" v="wine"/>
+  <tag k="website" v="http://www.bovin.com.mk"/>
+  <tag k="highway" v="residential"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="highway" v="track"/>
+  <tag k="tracktype" v="grade3"/>
+  <tag k="highway" v="service"/>
+START 2
+  <tag k="name" v="Градско"/>
+  <tag k="public_transport" v="station"/>
+  <tag k="railway" v="station"/>
+  <tag k="name" v="Виничани"/>
+  <tag k="railway" v="halt"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="50"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="100"/>
+  <tag k="operator" v="Македонски Железници"/>
+  <tag k="passenger_lines" v="1"/>
+  <tag k="railway" v="rail"/>
+  <tag k="railway:pzb" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="25000"/>
+  <tag k="highway" v="track"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="50"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="85"/>
+  <tag k="operator" v="Македонски Железници"/>
+  <tag k="passenger_lines" v="1"/>
+  <tag k="railway" v="rail"/>
+  <tag k="railway:pzb" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="25000"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="50"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="operator" v="Македонски Железници"/>
+  <tag k="passenger_lines" v="1"/>
+  <tag k="railway" v="rail"/>
+  <tag k="railway:pzb" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="25000"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="name" v="8. Септември"/>
+  <tag k="name:en" v="8 Septemvri"/>
+  <tag k="old_ref" v="R103"/>
+  <tag k="oneway" v="no"/>
+  <tag k="ref" v="R1102"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="craft" v="winery"/>
+  <tag k="name" v="Vinarija Stobi"/>
+  <tag k="website" v="https://www.stobiwinery.mk/"/>
+  <tag k="highway" v="service"/>
+  <tag k="highway" v="service"/>
+  <tag k="highway" v="service"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="Кочо Рацин"/>
+  <tag k="name:en" v="Kocho Racin"/>
+  <tag k="ref" v="L10212"/>
+  <tag k="highway" v="residential"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="old_ref" v="R103"/>
+  <tag k="oneway" v="no"/>
+  <tag k="ref" v="R1102"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="ref" v="L10213;L10214"/>
+  <tag k="source" v="Mapbox"/>
+  <tag k="railway" v="rail"/>
+  <tag k="service" v="yard"/>
+  <tag k="from" v="Skopje"/>
+  <tag k="network" v="mk:national"/>
+  <tag k="old_ref" v="R103"/>
+  <tag k="ref" v="R1102"/>
+  <tag k="route" v="road"/>
+  <tag k="to" v="Gevgelija"/>
+  <tag k="type" v="route"/>
+  <tag k="wikidata" v="Q94145343"/>
+  <tag k="colour" v="#e69a32"/>
+  <tag k="cycle_network" v="EuroVelo"/>
+  <tag k="from" v="Nordkapp"/>
+  <tag k="name" v="EuroVelo 11 - East Europe Route"/>
+  <tag k="name:cs" v="EuroVelo 11 - Trasa východní Evropou"/>
+  <tag k="name:de" v="EuroVelo 11 - Osteuropa-Route"/>
+  <tag k="name:en" v="EuroVelo 11 - East Europe Route"/>
+  <tag k="name:es" v="EuroVelo 11 - Ruta de Europa del Este"/>
+  <tag k="name:fi" v="EuroVelo 11 - Itä-Euroopan reitti"/>
+  <tag k="name:fr" v="EuroVelo 11 - La route de l'Europe de l'Est"/>
+  <tag k="name:hr" v="EuroVelo 11 - Istočnoeuropska staza"/>
+  <tag k="name:hu" v="EuroVelo 11 - Kelet-európai útvonal"/>
+  <tag k="name:it" v="EuroVelo 11 - Itinerario Europa Orientale"/>
+  <tag k="name:lt" v="EuroVelo 11 - Rytų Europos trasa"/>
+  <tag k="name:nl" v="EuroVelo 11 - Oost-Europaroute"/>
+  <tag k="name:pl" v="EuroVelo 11 - Szlak Europy Wschodniej"/>
+  <tag k="name:pt" v="EuroVelo 11 - Rota da Europa de Leste"/>
+  <tag k="name:sk" v="EuroVelo 11 - Trasa východnou Európou"/>
+  <tag k="name:sl" v="EuroVelo 11 - Vzhodnoevropska pot"/>
+  <tag k="name:sr" v="ЕуроВело 11 - Источноевропска рута"/>
+  <tag k="name:sr-Latn" v="EuroVelo 11 - Istočnoevropska ruta"/>
+  <tag k="name:tr" v="EuroVelo 11 - Doğu Avrupa Rotası"/>
+  <tag k="network" v="icn"/>
+  <tag k="operator" v="European Cyclists' Federation"/>
+  <tag k="ref" v="EV11"/>
+  <tag k="route" v="bicycle"/>
+  <tag k="to" v="Athens"/>
+  <tag k="type" v="superroute"/>
+  <tag k="website" v="https://eurovelo.com/ev11"/>
+  <tag k="wikidata" v="Q3060533"/>
+  <tag k="wiki:symbol" v="Sign EV11.svg"/>
+  <tag k="admin_level" v="8"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="int_name" v="Gradsko"/>
+  <tag k="name" v="Градско"/>
+  <tag k="name:en" v="Gradsko"/>
+  <tag k="place" v="village"/>
+  <tag k="source" v="Cadastre"/>
+  <tag k="type" v="boundary"/>
+  <tag k="admin_level" v="8"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="int_name" v="Vodovrati"/>
+  <tag k="name" v="Водоврати"/>
+  <tag k="name:en" v="Vodovrati"/>
+  <tag k="place" v="village"/>
+  <tag k="source" v="Cadastre"/>
+  <tag k="type" v="boundary"/>
+  <tag k="landuse" v="residential"/>
+  <tag k="name" v="Градско"/>
+  <tag k="name:en" v="Gradsko"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="colour" v="#e69a32"/>
+  <tag k="complete" v="no"/>
+  <tag k="cycle_network" v="EuroVelo"/>
+  <tag k="from" v="Skopje"/>
+  <tag k="name" v="EuroVelo 11 - East Europe Route - part North Macedonia"/>
+  <tag k="name:cs" v="EuroVelo 11 - Trasa východní Evropou - sekce Severní Makedonie"/>
+  <tag k="name:de" v="EuroVelo 11 - Osteuropa-Route - Teil Nordmakedonien"/>
+  <tag k="name:en" v="EuroVelo 11 - East Europe Route - part North Macedonia"/>
+  <tag k="name:fr" v="EuroVelo 11 - La route de l'Europe de l'Est - tronçon Macédoine du Nord"/>
+  <tag k="name:it" v="EuroVelo 11 - Itinerario Europa Orientale - parte Macedonia del Nord"/>
+  <tag k="name:nl" v="EuroVelo 11 - Oost-Europaroute - deel Noord-Macedonië"/>
+  <tag k="name:pl" v="EuroVelo 11 - Szlak Europy Wschodniej - część Macedonia Północna"/>
+  <tag k="name:sk" v="EuroVelo 11 - Trasa východnou Európou - sekcia Severné Macedónsko"/>
+  <tag k="name:tr" v="EuroVelo 11 - Doğu Avrupa Rotası - kısım Kuzey Makedonya"/>
+  <tag k="network" v="icn"/>
+  <tag k="ref" v="EV11"/>
+  <tag k="route" v="bicycle"/>
+  <tag k="to" v="Sretenovo"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://en.eurovelo.com/ev11/fyro-macedonia"/>
+  <tag k="name" v="Општински патишта (Градско)"/>
+  <tag k="name:en" v="Municipal roads (Gradsko)"/>
+  <tag k="ref" v="GR"/>
+  <tag k="type" v="network"/>
+  <tag k="network" v="mk:local"/>
+  <tag k="ref" v="L10212"/>
+  <tag k="route" v="road"/>
+  <tag k="type" v="route"/>
+  <tag k="network" v="mk:local"/>
+  <tag k="ref" v="L10213"/>
+  <tag k="route" v="road"/>
+  <tag k="type" v="route"/>
+  <tag k="network" v="mk:local"/>
+  <tag k="ref" v="L10214"/>
+  <tag k="route" v="road"/>
+  <tag k="type" v="route"/>
+  <tag k="natural" v="water"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="water" v="river"/>
+  <tag k="name" v="Tabanovce – Gevgelija railway line"/>
+  <tag k="route" v="railway"/>
+  <tag k="type" v="route"/>
+  <tag k="wikidata" v="Q3239944"/>
+START 3
+  <tag k="amenity" v="place_of_worship"/>
+  <tag k="name:en" v="St. Kozmo and Damjan"/>
+  <tag k="email" v="info@monasterywinery.com"/>
+  <tag k="name:en" v="monastery winery"/>
+  <tag k="opening_hours" v="Mo-Su 08:00-23:00"/>
+  <tag k="phone" v="+389 78474656"/>
+  <tag k="shop" v="wine"/>
+  <tag k="website" v="https://monasterywinery.com"/>
+  <tag k="natural" v="wood"/>
+  <tag k="source" v="Landsat"/>
+START 4
+  <tag k="button_operated" v="no"/>
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:sound" v="no"/>
+  <tag k="admin_level" v="2"/>
+  <tag k="alt_name:ar" v="سكوبيه;سكوبجي"/>
+  <tag k="alt_name:fa" v="اسکوپیا"/>
+  <tag k="alt_name:vi" v="Xcốp-pi-ê"/>
+  <tag k="capital" v="yes"/>
+  <tag k="capital_ISO3166-1" v="yes"/>
+  <tag k="ele" v="245"/>
+  <tag k="int_name" v="Skopje"/>
+  <tag k="name" v="Скопје"/>
+  <tag k="name:an" v="Scopia"/>
+  <tag k="name:ar" v="إسكوبية"/>
+  <tag k="name:ast" v="Skopie"/>
+  <tag k="name:az" v="Skopye"/>
+  <tag k="name:azb" v="ایسکوپیه"/>
+  <tag k="name:be" v="Скоп'е"/>
+  <tag k="name:be-tarask" v="Скоп'е"/>
+  <tag k="name:bg" v="Северна Македония"/>
+  <tag k="name:bo" v="སི་ཀོཔ་ཇི།"/>
+  <tag k="name:br" v="Skopje"/>
+  <tag k="name:bs" v="Skoplje"/>
+  <tag k="name:crh" v="Üsküp"/>
+  <tag k="name:cs" v="Skopje"/>
+  <tag k="name:cu" v="Съкопиѥ"/>
+  <tag k="name:cv" v="Скопйе"/>
+  <tag k="name:cy" v="Skopje"/>
+  <tag k="name:da" v="Skopje"/>
+  <tag k="name:de" v="Skopje"/>
+  <tag k="name:el" v="Σκόπια"/>
+  <tag k="name:en" v="Skopje"/>
+  <tag k="name:eo" v="Skopjo"/>
+  <tag k="name:es" v="Skopie"/>
+  <tag k="name:et" v="Skopje"/>
+  <tag k="name:eu" v="Skopje"/>
+  <tag k="name:fa" v="اسکوپیه"/>
+  <tag k="name:fr" v="Skopje"/>
+  <tag k="name:grc" v="Σκοῦποι"/>
+  <tag k="name:he" v="סקופיה"/>
+  <tag k="name:hr" v="Skoplje"/>
+  <tag k="name:hu" v="Szkopje"/>
+  <tag k="name:hy" v="Սկոպյե"/>
+  <tag k="name:it" v="Skopje"/>
+  <tag k="name:ja" v="スコピエ"/>
+  <tag k="name:ka" v="სკოპიე"/>
+  <tag k="name:kk" v="Скопье"/>
+  <tag k="name:ko" v="스코페"/>
+  <tag k="name:ku" v="Skopye"/>
+  <tag k="name:kv" v="Скопье"/>
+  <tag k="name:la" v="Scupi"/>
+  <tag k="name:lad" v="Skopia"/>
+  <tag k="name:ln" v="Skopye"/>
+  <tag k="name:lt" v="Skopjė"/>
+  <tag k="name:mk" v="Скопје"/>
+  <tag k="name:ml" v="സ്കൊപ്യെ"/>
+  <tag k="name:mr" v="स्कोप्ये"/>
+  <tag k="name:mzn" v="اسکوپیه"/>
+  <tag k="name:nl" v="Skopje"/>
+  <tag k="name:no" v="Skopje"/>
+  <tag k="name:oc" v="Skopje"/>
+  <tag k="name:os" v="Скопье"/>
+  <tag k="name:pl" v="Skopje"/>
+  <tag k="name:pnb" v="سکوپ جے"/>
+  <tag k="name:pt" v="Escópia"/>
+  <tag k="name:rmy" v="Skopiye"/>
+  <tag k="name:ro" v="Skopje"/>
+  <tag k="name:roa-rup" v="Scopia"/>
+  <tag k="name:ru" v="Скопье"/>
+  <tag k="name:sh" v="Skoplje"/>
+  <tag k="name:sk" v="Skopje"/>
+  <tag k="name:sl" v="Skopje"/>
+  <tag k="name:sq" v="Shkup"/>
+  <tag k="name:sr" v="Скопље"/>
+  <tag k="name:sv" v="Skopje"/>
+  <tag k="name:ta" v="ஸ்கோப்ஜே"/>
+  <tag k="name:tg" v="Скопе"/>
+  <tag k="name:th" v="สโกเปีย"/>
+  <tag k="name:tr" v="Üsküp"/>
+  <tag k="name:udm" v="Скопье"/>
+  <tag k="name:ug" v="سكوپليې"/>
+  <tag k="name:uk" v="Скоп'є"/>
+  <tag k="name:ur" v="اسکوپیہ"/>
+  <tag k="name:vi" v="Skopje"/>
+  <tag k="name:zh" v="斯科普里"/>
+  <tag k="name:zh-Hans" v="斯科普里"/>
+  <tag k="name:zh-Hant" v="史高比耶"/>
+  <tag k="place" v="city"/>
+  <tag k="population" v="850000"/>
+  <tag k="source:name:br" v="ofis publik ar brezhoneg"/>
+  <tag k="source:name:oc" v="Lo Congrès"/>
+  <tag k="website" v="https://skopje.gov.mk/"/>
+  <tag k="wikidata" v="Q384"/>
+  <tag k="wikipedia" v="mk:Скопје"/>
+  <tag k="addr:city" v="Скопје"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Плоштад Македонија"/>
+  <tag k="air_conditioning" v="yes"/>
+  <tag k="alt_name" v="Дал Мет Фу"/>
+  <tag k="amenity" v="restaurant"/>
+  <tag k="cuisine" v="italian"/>
+  <tag k="indoor_seating" v="yes"/>
+  <tag k="int_name" v="Pelister"/>
+  <tag k="name" v="Пелистер"/>
+  <tag k="name:en" v="Pelister"/>
+  <tag k="opening_hours" v="Mo-Th 07:00-00:00; Fr-Sa 07:00-01:00; Su 10:30-00:00"/>
+  <tag k="outdoor_seating" v="yes"/>
+  <tag k="smoking" v="outside"/>
+  <tag k="website" v="https://www.pelisterhotel.com.mk/"/>
+  <tag k="wheelchair" v="yes"/>
+  <tag k="wheelchair:description" v="Toilet not accessible"/>
+  <tag k="addr:city" v="Скопје"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Македонија"/>
+  <tag k="amenity" v="cafe"/>
+  <tag k="location" v="Center"/>
+  <tag k="name" v="Caffe Skopje"/>
+  <tag k="opening_hours" v="Mo-Su 08:00-23:00"/>
+  <tag k="barrier" v="block"/>
+  <tag k="addr:city" v="Скопје"/>
+  <tag k="addr:housenumber" v="2/4"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Никола Вапцаров"/>
+  <tag k="amenity" v="pub"/>
+  <tag k="name" v="London Pub"/>
+  <tag k="name:mk" v="Паб „Лондон“"/>
+  <tag k="operator" v="Македонијатурист"/>
+  <tag k="artist_name" v="Валентина Стефановска"/>
+  <tag k="artwork_type" v="statue"/>
+  <tag k="historic" v="monument"/>
+  <tag k="int_name" v="Voin na Konj"/>
+  <tag k="layer" v="2"/>
+  <tag k="memorial" v="statue"/>
+  <tag k="name" v="Споменик на Александар Македонски"/>
+  <tag k="name:en" v="Statue of Alexander the Great"/>
+  <tag k="start_date" v="08.09.2011"/>
+  <tag k="tourism" v="artwork"/>
+  <tag k="wikidata" v="Q3497603"/>
+  <tag k="wikimedia_commons" v="Category:Warrior on Horseback (Skopje)"/>
+  <tag k="wikipedia" v="mk:Воин на коњ (Скопје)"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="amenity" v="restaurant"/>
+  <tag k="cuisine" v="international"/>
+  <tag k="int_name" v="Trend"/>
+  <tag k="name" v="Тренд"/>
+  <tag k="name:en" v="Trend"/>
+  <tag k="wheelchair" v="limited"/>
+  <tag k="wheelchair:description" v="Toilet not accessible"/>
+  <tag k="amenity" v="cafe"/>
+  <tag k="location" v="Center"/>
+  <tag k="name" v="Up Cafe"/>
+  <tag k="opening_hours" v="Mo-Sa 08:00-18:00"/>
+  <tag k="amenity" v="restaurant"/>
+  <tag k="cuisine" v="regional"/>
+  <tag k="int_name" v="Arabeska"/>
+  <tag k="name" v="Арабеска"/>
+  <tag k="name:en" v="Arabesque"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:housenumber" v="3a"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="11 Октомври"/>
+  <tag k="amenity" v="nightclub"/>
+  <tag k="name" v="Сектор909"/>
+  <tag k="name:en" v="Sektor909"/>
+  <tag k="addr:housenumber" v="1"/>
+  <tag k="addr:street" v="Никола Вапцаров"/>
+  <tag k="amenity" v="cafe"/>
+  <tag k="internet_access" v="yes"/>
+  <tag k="int_name" v="Bokata"/>
+  <tag k="location" v="Center"/>
+  <tag k="name" v="Bocata"/>
+  <tag k="opening_hours" v="Mo-Su 08:00-23:00"/>
+  <tag k="wheelchair" v="limited"/>
+  <tag k="addr:city" v="Скопје"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Македонија"/>
+  <tag k="amenity" v="cafe"/>
+  <tag k="location" v="Center"/>
+  <tag k="name" v="Coffee Factory 2"/>
+  <tag k="opening_hours" v="Mo-Sa 08:00-01:00"/>
+  <tag k="addr:street" v="Плоштад Македонија"/>
+  <tag k="amenity" v="nightclub"/>
+  <tag k="name" v="XO Club"/>
+  <tag k="addr:city" v="Скопје"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Плоштад Македонија"/>
+  <tag k="int_name" v="Pelister Hotel"/>
+  <tag k="name" v="Пелистер"/>
+  <tag k="tourism" v="hotel"/>
+  <tag k="website" v="https://www.pelisterhotel.com.mk/"/>
+  <tag k="amenity" v="atm"/>
+  <tag k="addr:city" v="Скопје"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:housenumber" v="2"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="11 Октомври"/>
+  <tag k="addr:street:en" v="11 Oktomvri"/>
+  <tag k="amenity" v="restaurant"/>
+  <tag k="cuisine" v="italian"/>
+  <tag k="int_name" v="La Terrazza"/>
+  <tag k="name" v="Ла Тераца"/>
+  <tag k="opening_hours" v="08:00-24:00, Fr-Sa 08:00-01:00"/>
+  <tag k="outdoor_seating" v="yes"/>
+  <tag k="phone" v="+389 2 3113380"/>
+  <tag k="smoking" v="separated"/>
+  <tag k="wheelchair" v="yes"/>
+  <tag k="name" v="Square"/>
+  <tag k="tourism" v="hotel"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:housenumber" v="3"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Максим Горки"/>
+  <tag k="addr:street:en" v="Maksim Gorki"/>
+  <tag k="amenity" v="restaurant"/>
+  <tag k="cuisine" v="chinese"/>
+  <tag k="email" v="reservation@pekinggarden.mk"/>
+  <tag k="int_name" v="Peking Garden"/>
+  <tag k="name" v="Пекинг Гарден"/>
+  <tag k="opening_hours" v="Mo-Sa 11:00-24:00; Su 12:00-23:00"/>
+  <tag k="phone" v="+389 2 3221173"/>
+  <tag k="website" v="www.pekinggarden.mk"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="artist_name" v="Димитар Филиповски"/>
+  <tag k="artwork_type" v="statue"/>
+  <tag k="historic" v="memorial"/>
+  <tag k="inscription" v="Цар Самоил"/>
+  <tag k="memorial" v="statue"/>
+  <tag k="name" v="Цар Самоил"/>
+  <tag k="name:de" v="Zar Samuil"/>
+  <tag k="name:en" v="Tsar Samuel"/>
+  <tag k="start_date" v="28.06.2011"/>
+  <tag k="tourism" v="artwork"/>
+  <tag k="wikidata" v="Q12910631"/>
+  <tag k="wikimedia_commons" v="Category:Samuel's Monument (Skopje)"/>
+  <tag k="wikipedia" v="mk:Споменик на Цар Самоил (Скопје)"/>
+  <tag k="amenity" v="bench"/>
+  <tag k="backrest" v="yes"/>
+  <tag k="check_date" v="2023-01-25"/>
+  <tag k="amenity" v="bench"/>
+  <tag k="backrest" v="yes"/>
+  <tag k="check_date" v="2023-01-25"/>
+  <tag k="addr:city" v="Скопје"/>
+  <tag k="addr:housenumber" v="22"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Македонија"/>
+  <tag k="cable tv" v="yes"/>
+  <tag k="internet_access" v="yes"/>
+  <tag k="internet_access:fee" v="no"/>
+  <tag k="kitchen" v="fully equipped"/>
+  <tag k="name" v="ARSS Apartment Skopje Main Square"/>
+  <tag k="phone" v="+38970332285"/>
+  <tag k="rooms" v="3"/>
+  <tag k="smoking" v="outside"/>
+  <tag k="tourism" v="guest_house"/>
+  <tag k="website" v="https://www.facebook.com/skopjeapartments"/>
+  <tag k="amenity" v="bank"/>
+  <tag k="name" v="ПроКредит"/>
+  <tag k="name:mk" v="procredit"/>
+  <tag k="air_conditioning" v="yes"/>
+  <tag k="amenity" v="pub"/>
+  <tag k="indoor_seating" v="yes"/>
+  <tag k="microbrewery" v="yes"/>
+  <tag k="name" v="Колектив"/>
+  <tag k="name:en" v="Kolektiv"/>
+  <tag k="opening_hours" v="Su-Th 09:00-24:00, Fr,Sa 09:00-01:00"/>
+  <tag k="operator" v="Колектив"/>
+  <tag k="outdoor_seating" v="yes"/>
+  <tag k="smoking" v="outside"/>
+  <tag k="addr:housenumber" v="33"/>
+  <tag k="int_name" v="Kultura"/>
+  <tag k="name" v="Култура"/>
+  <tag k="name:en" v="Kultura"/>
+  <tag k="operator" v="Култура"/>
+  <tag k="shop" v="books"/>
+  <tag k="amenity" v="pub"/>
+  <tag k="int_name" v="Kolektiv"/>
+  <tag k="name" v="Колектив"/>
+  <tag k="name:mk" v="Колектив"/>
+  <tag k="addr:city" v="Skopje"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="historic" v="memorial"/>
+  <tag k="name" v="Спомен плоча на Мајка Тереза"/>
+  <tag k="name:de" v="Geburtsort von Mutter Teresa"/>
+  <tag k="name:en" v="Mother Teresa Old House Place"/>
+  <tag k="source" v="survey"/>
+  <tag k="name" v="Сковин"/>
+  <tag k="name:en" v="Skovin"/>
+  <tag k="shop" v="wine"/>
+  <tag k="historic" v="memorial"/>
+  <tag k="int_name" v="Metodija Andonov - Čento Momument"/>
+  <tag k="memorial" v="statue"/>
+  <tag k="name" v="Методија Андонов - Ченто"/>
+  <tag k="name" v="Lisca"/>
+  <tag k="shop" v="clothes"/>
+  <tag k="amenity" v="fast_food"/>
+  <tag k="brand" v="Burger King"/>
+  <tag k="brand:wikidata" v="Q177054"/>
+  <tag k="brand:wikipedia" v="mk:Бургер Кинг"/>
+  <tag k="cuisine" v="burger"/>
+  <tag k="drive_through" v="no"/>
+  <tag k="indoor_seating" v="yes"/>
+  <tag k="name" v="Burger King"/>
+  <tag k="name:de" v="Burger King"/>
+  <tag k="name:fr" v="Burger King"/>
+  <tag k="name:mk" v="Бургер Кинг"/>
+  <tag k="name:sr" v="Бургер Кинг"/>
+  <tag k="opening_hours" v="Mo-Su 10:00-22:00"/>
+  <tag k="outdoor_seating" v="no"/>
+  <tag k="takeaway" v="yes"/>
+  <tag k="name" v="Mega sport"/>
+  <tag k="shop" v="sports"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:housenumber" v="3A"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Максим Горки"/>
+  <tag k="brand" v="Lindt"/>
+  <tag k="brand:wikidata" v="Q152822"/>
+  <tag k="brand:wikipedia" v="en:Lindt"/>
+  <tag k="name" v="Lindt"/>
+  <tag k="opening_hours" v="Mo-Sa 09:00-21:00"/>
+  <tag k="operator" v="Inko Foods"/>
+  <tag k="phone" v="+389 2 310 1135"/>
+  <tag k="shop" v="chocolate"/>
+  <tag k="amenity" v="casino"/>
+  <tag k="name" v="Apex"/>
+  <tag k="name" v="Boss"/>
+  <tag k="shop" v="clothes"/>
+  <tag k="amenity" v="casino"/>
+  <tag k="name" v="Senator"/>
+  <tag k="amenity" v="bicycle_parking"/>
+  <tag k="bicycle_parking" v="stands"/>
+  <tag k="capacity" v="12"/>
+  <tag k="amenity" v="post_box"/>
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="Шпаркасе"/>
+  <tag k="amenity" v="bench"/>
+  <tag k="backrest" v="yes"/>
+  <tag k="amenity" v="bench"/>
+  <tag k="backrest" v="yes"/>
+  <tag k="amenity" v="bench"/>
+  <tag k="backrest" v="yes"/>
+  <tag k="amenity" v="bench"/>
+  <tag k="backrest" v="yes"/>
+  <tag k="amenity" v="bench"/>
+  <tag k="backrest" v="yes"/>
+  <tag k="amenity" v="bench"/>
+  <tag k="backrest" v="yes"/>
+  <tag k="name" v="Iveri"/>
+  <tag k="opening_hours" v="Mo-Fr 09:00-21:00; Sa 09:00-19:00"/>
+  <tag k="shop" v="clothes"/>
+  <tag k="name" v="Cara"/>
+  <tag k="tourism" v="hotel"/>
+  <tag k="addr:city" v="Skopje"/>
+  <tag k="addr:housenumber" v="22"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Nikola Vapcarov"/>
+  <tag k="name" v="Cueyujai"/>
+  <tag k="shop" v="bakery"/>
+  <tag k="source" v="survey"/>
+  <tag k="artwork_type" v="statue"/>
+  <tag k="name" v="Dimitrija-Chupovski-Denkmal"/>
+  <tag k="name:mk" v="Споменик „Димитрија Чуповски“"/>
+  <tag k="source" v="survey"/>
+  <tag k="tourism" v="artwork"/>
+  <tag k="artwork_type" v="statue"/>
+  <tag k="name" v="Shoe Cleaner Statue"/>
+  <tag k="name:de" v="Schuhputzer-Statue"/>
+  <tag k="source" v="survey"/>
+  <tag k="tourism" v="artwork"/>
+  <tag k="amenity" v="atm"/>
+  <tag k="opening_hours" v="24/7"/>
+  <tag k="operator" v="Stopanska Bańka"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name:en" v="11-ti Oktomvri"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Nikola Kljusev"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Никола Кљусев"/>
+  <tag k="name:en" v="Nikola Kljusev"/>
+  <tag k="oneway" v="no"/>
+  <tag k="sidewalk" v="both"/>
+  <tag k="smoothness" v="good"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="11-ti Oktomvri"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="11-ти Октомври"/>
+  <tag k="name:en" v="11-ti Oktomvri"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Nikola Vapcarov"/>
+  <tag k="lit" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Никола Вапцаров"/>
+  <tag k="name:en" v="Nikola Vapcarov"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="building" v="yes"/>
+  <tag k="int_name" v="City Gallery"/>
+  <tag k="layer" v="2"/>
+  <tag k="name" v="Сити галери"/>
+  <tag k="shop" v="mall"/>
+  <tag k="highway" v="residential"/>
+  <tag k="int_name" v="11-ti Oktomvri"/>
+  <tag k="lanes" v="1"/>
+  <tag k="lit" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="11-ти Октомври"/>
+  <tag k="name:en" v="11-ti Oktomvri"/>
+  <tag k="sidewalk" v="both"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="highway" v="residential"/>
+  <tag k="int_name" v="Maksim Gorki"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Максим Горки"/>
+  <tag k="name:en" v="Maksim Gorki"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="sidewalk" v="both"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Ploštad Makedonija"/>
+  <tag k="name" v="Плоштад Македонија"/>
+  <tag k="name:en" v="Ploštad Makedonija"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="foot" v="yes"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Makedonija"/>
+  <tag k="lit" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Македонија"/>
+  <tag k="name:en" v="Makedonija"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="building" v="yes"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Vasil Iljoski"/>
+  <tag k="name" v="Васил Иљоски"/>
+  <tag k="name:en" v="Vasil Iljoski"/>
+  <tag k="noname" v="yes"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="landuse" v="construction"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:housenumber" v="ББ"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="27 Март"/>
+  <tag k="amenity" v="bank"/>
+  <tag k="building" v="office"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="contact:website" v="http://eurostandard.com.mk"/>
+  <tag k="name" v="Еуростандард Банка"/>
+  <tag k="name:en" v="Eurostandard Bank"/>
+  <tag k="name:mk" v="Еуростандард Банка"/>
+  <tag k="surveillance" v="indoor;outdoor"/>
+  <tag k="surveillance:type" v="camera"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="building" v="yes"/>
+  <tag k="contact:website" v="http://www.duvethotel.com/"/>
+  <tag k="name" v="Хотел Дувет"/>
+  <tag k="name:en" v="Duvet Hotel"/>
+  <tag k="tourism" v="hotel"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="building" v="yes"/>
+  <tag k="amenity" v="fountain"/>
+  <tag k="layer" v="1"/>
+  <tag k="natural" v="water"/>
+  <tag k="name" v="Плоштад Македонија"/>
+  <tag k="name:ar" v="إسكوبية"/>
+  <tag k="name:bg" v="Ploshtad Makedonija"/>
+  <tag k="name:de" v="Mazedonischer Platz"/>
+  <tag k="name:en" v="Macedonia Square"/>
+  <tag k="name:fr" v="Place de Macédoine"/>
+  <tag k="place" v="square"/>
+  <tag k="wikidata" v="Q3070972"/>
+  <tag k="wikipedia" v="en:Macedonia Square"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:housenumber" v="6"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Кеј 13 Ноември"/>
+  <tag k="building" v="commercial"/>
+  <tag k="check_date" v="2023-10-07"/>
+  <tag k="int_name" v="T-Mobile"/>
+  <tag k="name" v="Македонски телеком - Главна дирекција"/>
+  <tag k="name:en" v="T-Mobile"/>
+  <tag k="office" v="company"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="air_conditioning" v="yes"/>
+  <tag k="brand" v="Marriott"/>
+  <tag k="brand:wikidata" v="Q1141173"/>
+  <tag k="brand:wikipedia" v="en:Marriott International"/>
+  <tag k="building" v="hotel"/>
+  <tag k="building:levels" v="8"/>
+  <tag k="fax" v="+389 2 510 2513"/>
+  <tag k="internet_access" v="wlan"/>
+  <tag k="internet_access:fee" v="customers"/>
+  <tag k="int_name" v="Marriott Skopje"/>
+  <tag k="level" v="10"/>
+  <tag k="name" v="Хотел Мериот Скопје"/>
+  <tag k="name:en" v="Marriott Skopje"/>
+  <tag k="operator" v="Marriott"/>
+  <tag k="pets_allowed" v="yes"/>
+  <tag k="phone" v="+389 2 510 2510"/>
+  <tag k="rooms" v="164"/>
+  <tag k="stars" v="5"/>
+  <tag k="surveillance" v="indoor;outdoor"/>
+  <tag k="surveillance:type" v="camera"/>
+  <tag k="swimming_pool" v="indoor"/>
+  <tag k="tourism" v="hotel"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="building" v="yes"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:housenumber" v="10"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="building" v="hotel"/>
+  <tag k="name" v="Solun"/>
+  <tag k="tourism" v="hotel"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="5"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="5"/>
+  <tag k="highway" v="residential"/>
+  <tag k="int_name" v="Maksim Gorki"/>
+  <tag k="name" v="Максим Горки"/>
+  <tag k="name:en" v="Maksim Gorki"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="sidewalk" v="both"/>
+  <tag k="smoothness" v="excellent"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Ploštad Makedonija"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Плоштад Македонија"/>
+  <tag k="name:en" v="Ploštad Makedonija"/>
+  <tag k="smoothness" v="excellent"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Ploštad Makedonija"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Плоштад Македонија"/>
+  <tag k="name:en" v="Ploštad Makedonija"/>
+  <tag k="smoothness" v="excellent"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="building" v="construction"/>
+  <tag k="check_date" v="2023-01-25"/>
+  <tag k="amenity" v="fountain"/>
+  <tag k="name" v="Водоскоци"/>
+  <tag k="name:en" v="Fountain"/>
+  <tag k="name:uk" v="Фонтан"/>
+  <tag k="building" v="yes"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Maksim Gorki"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Максим Горки"/>
+  <tag k="name:en" v="Maksim Gorki"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Ploštad Makedonija"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Плоштад Македонија"/>
+  <tag k="name:en" v="Ploštad Makedonija"/>
+  <tag k="smoothness" v="excellent"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="amenity" v="parking"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="building" v="yes"/>
+  <tag k="addr:city" v="Скопје"/>
+  <tag k="addr:housenumber" v="22"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Македонија"/>
+  <tag k="building" v="house"/>
+  <tag k="addr:city" v="Скопје"/>
+  <tag k="addr:housenumber" v="32"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="Македонија"/>
+  <tag k="building" v="house"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Ploštad Makedonija"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Плоштад Македонија"/>
+  <tag k="name:en" v="Ploštad Makedonija"/>
+  <tag k="smoothness" v="excellent"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="building" v="yes"/>
+  <tag k="building" v="yes"/>
+  <tag k="building" v="yes"/>
+  <tag k="building" v="yes"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Ploštad Makedonija"/>
+  <tag k="name" v="Плоштад Македонија"/>
+  <tag k="name:en" v="Ploštad Makedonija"/>
+  <tag k="noname" v="yes"/>
+  <tag k="smoothness" v="excellent"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Kej 13-ti Noemvri"/>
+  <tag k="name" v="Кеј 13-ти Ноември"/>
+  <tag k="name:en" v="Kej 13-ti Noemvri"/>
+  <tag k="smoothness" v="excellent"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="highway" v="footway"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Nikola Vapcarov"/>
+  <tag k="name" v="Никола Вапцаров"/>
+  <tag k="name:en" v="Nikola Vapcarov"/>
+  <tag k="admin_level" v="2"/>
+  <tag k="alt_name:ar" v="مقدونيا الشمالية"/>
+  <tag k="alt_name:eo" v="Nord-Makedonujo"/>
+  <tag k="alt_name:vi" v="Bắc Ma-xê-đô-ni-a;Ma-xê-đô-ni-a;Bắc Mác-kê-đôn-ni-a;Mác-kê-đôn-ni-a"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="default_language" v="mk"/>
+  <tag k="fixme" v="name:xx-North Macedonia official_name:xx-Republic of North Macedonia old_name:xx-Macedonia old_official_name:xx-Republic of Macedonia"/>
+  <tag k="flag" v="https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg"/>
+  <tag k="int_name" v="North Macedonia"/>
+  <tag k="ISO3166-1" v="MK"/>
+  <tag k="ISO3166-1:alpha2" v="MK"/>
+  <tag k="ISO3166-1:alpha3" v="MKD"/>
+  <tag k="ISO3166-1:numeric" v="807"/>
+  <tag k="name" v="Северна Македонија"/>
+  <tag k="name:ar" v="شمال مقدونيا"/>
+  <tag k="name:bg" v="Северна Македония"/>
+  <tag k="name:bs" v="Sjeverna Makedonija"/>
+  <tag k="name:ca" v="Macedònia del Nord"/>
+  <tag k="name:cs" v="Severní Makedonie"/>
+  <tag k="name:cy" v="Gogledd Macedonia"/>
+  <tag k="name:da" v="Nordmakedonien"/>
+  <tag k="name:de" v="Nordmazedonien"/>
+  <tag k="name:el" v="Βόρεια Μακεδονία"/>
+  <tag k="name:en" v="North Macedonia"/>
+  <tag k="name:eo" v="Nord-Makedonio"/>
+  <tag k="name:es" v="Macedonia del Norte"/>
+  <tag k="name:et" v="Põhja-Makedoonia"/>
+  <tag k="name:eu" v="Ipar Mazedonia"/>
+  <tag k="name:fa" v="مقدونیه شمالی"/>
+  <tag k="name:fr" v="Macédoine du Nord"/>
+  <tag k="name:fy" v="Noard-Masedoanje"/>
+  <tag k="name:gd" v="Masadoinia a Tuath"/>
+  <tag k="name:gl" v="Macedonia do Norte"/>
+  <tag k="name:gn" v="Yvate Masendóña"/>
+  <tag k="name:gv" v="Massadoan Hwoaie"/>
+  <tag k="name:he" v="מקדוניה הצפונית"/>
+  <tag k="name:hif" v="Macedonia"/>
+  <tag k="name:hr" v="Sjeverna Makedonija"/>
+  <tag k="name:hu" v="Észak-Macedónia"/>
+  <tag k="name:hy" v="Մակեդոնիայի Հանրապետություն"/>
+  <tag k="name:it" v="Macedonia del Nord"/>
+  <tag k="name:ja" v="北マケドニア"/>
+  <tag k="name:ko" v="북마케도니아"/>
+  <tag k="name:ku" v="Komara Makedonyayê"/>
+  <tag k="name:kv" v="Македония Республика"/>
+  <tag k="name:kw" v="Repoblek Makedoni"/>
+  <tag k="name:la" v="Macedonia Septentrionalis"/>
+  <tag k="name:lad" v="Makedonia"/>
+  <tag k="name:lb" v="Nordmazedonien"/>
+  <tag k="name:li" v="Noord-Macedonië"/>
+  <tag k="name:lij" v="Maçedònia"/>
+  <tag k="name:lmo" v="Macedonia"/>
+  <tag k="name:lt" v="Šiaurės Makedonija"/>
+  <tag k="name:ltg" v="Makedonejis Republika"/>
+  <tag k="name:lv" v="Ziemeļmaķedonija"/>
+  <tag k="name:mdf" v="Македоние"/>
+  <tag k="name:mhr" v="Македоний"/>
+  <tag k="name:mi" v="Makerōnia"/>
+  <tag k="name:mk" v="Северна Македонија"/>
+  <tag k="name:ml" v="റിപ്പബ്ലിക് ഓഫ് മാസിഡോണിയ"/>
+  <tag k="name:mn" v="Бүгд Найрамдах Македон Улс"/>
+  <tag k="name:mr" v="मॅसिडोनिया"/>
+  <tag k="name:ms" v="Republik Macedonia"/>
+  <tag k="name:mt" v="Repubblika tal-Maċedonja"/>
+  <tag k="name:my" v="မက်စီဒိုးနီးယားနိုင်ငံ"/>
+  <tag k="name:na" v="Matedoniya"/>
+  <tag k="name:nah" v="Tlācatlahtohcāyōtl Macedonia"/>
+  <tag k="name:nan" v="Makedonija Kiōng-hô-kok"/>
+  <tag k="name:nds" v="Republiek Makedonien"/>
+  <tag k="name:nds-nl" v="Massedonië"/>
+  <tag k="name:ne" v="म्यासेडोनिया"/>
+  <tag k="name:nl" v="Noord-Macedonië"/>
+  <tag k="name:nn" v="Nord-Makedonia"/>
+  <tag k="name:no" v="Nord-Makedonia"/>
+  <tag k="name:oc" v="Republica de Macedònia"/>
+  <tag k="name:or" v="ମାସିଡୋନିଆ"/>
+  <tag k="name:os" v="Республикæ Македони"/>
+  <tag k="name:pa" v="ਮਕਦੂਨੀਆ ਗਣਰਾਜ"/>
+  <tag k="name:pam" v="Republika ning Makedonia"/>
+  <tag k="name:pap" v="Macedonia"/>
+  <tag k="name:pcd" v="Machédoène"/>
+  <tag k="name:pih" v="Repablik o' Masedoenya"/>
+  <tag k="name:pl" v="Macedonia Północna"/>
+  <tag k="name:pms" v="Macedònia"/>
+  <tag k="name:ps" v="د مقدونيې ولسمشريزه"/>
+  <tag k="name:pt" v="Macedónia do Norte"/>
+  <tag k="name:pt-BR" v="Macedônia do Norte"/>
+  <tag k="name:qu" v="Makidunya"/>
+  <tag k="name:rmy" v="Nordutni Makedoniya"/>
+  <tag k="name:ro" v="Macedonia de Nord"/>
+  <tag k="name:roa-rup" v="Machedonia"/>
+  <tag k="name:roa-tara" v="Macidonie"/>
+  <tag k="name:ru" v="Северная Македония"/>
+  <tag k="name:rw" v="Masedoniya"/>
+  <tag k="name:sa" v="मेसेडोनिया"/>
+  <tag k="name:sah" v="Македония"/>
+  <tag k="name:sc" v="Matzedònia"/>
+  <tag k="name:scn" v="Macidonia"/>
+  <tag k="name:sco" v="Macedonie"/>
+  <tag k="name:se" v="Davvi-Makedonia"/>
+  <tag k="name:sh" v="Severna Makedonija"/>
+  <tag k="name:sk" v="Severné Macedónsko"/>
+  <tag k="name:sl" v="Severna Makedonija"/>
+  <tag k="name:smn" v="Tave-Makedonia"/>
+  <tag k="name:sms" v="Tâʹvv-Makedonia"/>
+  <tag k="name:so" v="Makedonia"/>
+  <tag k="name:sq" v="Maqedonia e Veriut"/>
+  <tag k="name:sr" v="Северна Македонија"/>
+  <tag k="name:sr-Latn" v="Severna Makedonija"/>
+  <tag k="name:ss" v="IMakhedoniya"/>
+  <tag k="name:stq" v="Makedonien"/>
+  <tag k="name:su" v="Makédonia"/>
+  <tag k="name:sv" v="Nordmakedonien"/>
+  <tag k="name:sw" v="Jamhuri ya Masedonia"/>
+  <tag k="name:szl" v="Macedōnijŏ"/>
+  <tag k="name:ta" v="மாக்கடோனியக் குடியரசு"/>
+  <tag k="name:te" v="మేసిడోనియా"/>
+  <tag k="name:tg" v="Ҷумҳурии Мақдуния"/>
+  <tag k="name:th" v="ประเทศมาซิโดเนียเหนือ"/>
+  <tag k="name:tk" v="Makedoniýa Respublikasy"/>
+  <tag k="name:tl" v="Republika ng Masedonya"/>
+  <tag k="name:tr" v="Kuzey Makedonya"/>
+  <tag k="name:tt" v="Македония Җөмһүрияте"/>
+  <tag k="name:udm" v="Македония Республика"/>
+  <tag k="name:ug" v="ماكېدونىيە"/>
+  <tag k="name:uk" v="Північна Македонія"/>
+  <tag k="name:UN:ar" v="جمهورية شمال مقدونيا"/>
+  <tag k="name:UN:el" v="Βόρεια Μακεδονία"/>
+  <tag k="name:UN:en" v="Republic of North Macedonia"/>
+  <tag k="name:UN:es" v="Macedonia del Norte"/>
+  <tag k="name:UN:he" v="הרפובליקה היוגוסלבית לשעבר של מקדוניה"/>
+  <tag k="name:UN:sk" v="Bývalá Juhoslovanská Republika Macedónsko"/>
+  <tag k="name:UN:zh" v="前南斯拉夫的马其顿共和国"/>
+  <tag k="name:ur" v="شمالی مقدونیہ"/>
+  <tag k="name:uz" v="Makedoniya Respublikasi"/>
+  <tag k="name:vec" v="Republica de Macedonia"/>
+  <tag k="name:vep" v="Makedonii"/>
+  <tag k="name:vi" v="Bắc Macedonia"/>
+  <tag k="name:vls" v="Nôord-Macedonië"/>
+  <tag k="name:vo" v="Nolüda-Makedoniyän"/>
+  <tag k="name:war" v="Republika han Macedonia"/>
+  <tag k="name:wo" v="Réewum Maseduwaan"/>
+  <tag k="name:wuu" v="北马其顿"/>
+  <tag k="name:xal" v="Масидин Орн"/>
+  <tag k="name:xmf" v="მაკედონია"/>
+  <tag k="name:yi" v="רעפובליק פון מאקעדאניע"/>
+  <tag k="name:yo" v="Orílẹ̀-èdè Olómìnira ilẹ̀ Makẹdóníà"/>
+  <tag k="name:yue" v="北馬其頓共和國"/>
+  <tag k="name:zea" v="Macedonië"/>
+  <tag k="name:zh" v="北马其顿 / 北馬其頓"/>
+  <tag k="name:zh-Hans" v="北马其顿"/>
+  <tag k="name:zh-Hant" v="北馬其頓"/>
+  <tag k="official_name" v="Република Северна Македонија"/>
+  <tag k="official_name:ar" v="جمهورية شمال مقدونيا"/>
+  <tag k="official_name:bg" v="Република Северна Македония"/>
+  <tag k="official_name:bs" v="Republika Sjeverna Makedonija"/>
+  <tag k="official_name:ca" v="República de Macedònia del Nord"/>
+  <tag k="official_name:cs" v="Republika Severní Makedonie"/>
+  <tag k="official_name:cy" v="Gweriniaeth Gogledd Macedonia"/>
+  <tag k="official_name:de" v="Republik Nordmazedonien"/>
+  <tag k="official_name:el" v="Δημοκρατία της Βόρειας Μακεδονίας"/>
+  <tag k="official_name:en" v="Republic of North Macedonia"/>
+  <tag k="official_name:eo" v="Respubliko Makedonujo"/>
+  <tag k="official_name:es" v="República de Macedonia del Norte"/>
+  <tag k="official_name:eu" v="Ipar Mazedoniako Errepublika"/>
+  <tag k="official_name:fa" v="جمهوری مقدونیه شمالی"/>
+  <tag k="official_name:fr" v="République de Macédoine du Nord"/>
+  <tag k="official_name:gl" v="República de Macedonia do Norte"/>
+  <tag k="official_name:he" v="רפובליקת מקדוניה הצפונית"/>
+  <tag k="official_name:hr" v="Republika Sjeverna Makedonija"/>
+  <tag k="official_name:it" v="Repubblica della Macedonia del Nord"/>
+  <tag k="official_name:mk" v="Република Северна Македонија"/>
+  <tag k="official_name:nl" v="Republiek Noord-Macedonië"/>
+  <tag k="official_name:nn" v="Republikken Nord-Makedonia"/>
+  <tag k="official_name:no" v="Republikken Nord-Makedonia"/>
+  <tag k="official_name:pl" v="Republika Macedonii Północnej"/>
+  <tag k="official_name:se" v="Dásseváldi Davvi-Makedonia"/>
+  <tag k="official_name:sk" v="Republika Severné Macedónsko"/>
+  <tag k="official_name:sl" v="Republika Severna Makedonija"/>
+  <tag k="official_name:sq" v="Republika e Maqedonisë së Veriut"/>
+  <tag k="official_name:sr" v="Република Северна Македонија"/>
+  <tag k="official_name:sr-Latn" v="Republika Severna Makedonija"/>
+  <tag k="official_name:th" v="สาธารณรัฐมาซิโดเนียเหนือ"/>
+  <tag k="official_name:tr" v="Kuzey Makedonya Cumhuriyeti"/>
+  <tag k="official_name:uk" v="Республіка Македонія"/>
+  <tag k="official_name:ur" v="جمہوریہ شمالی مقدونیہ"/>
+  <tag k="official_name:vi" v="Cộng hòa Bắc Macedonia"/>
+  <tag k="official_name:zh" v="北马其顿共和国 / 北馬其頓共和國"/>
+  <tag k="official_name:zh-Hans" v="北马其顿共和国"/>
+  <tag k="official_name:zh-Hant" v="北馬其頓共和國"/>
+  <tag k="old_name" v="Македонија"/>
+  <tag k="old_name:ar" v="مقدونيا"/>
+  <tag k="old_name:bg" v="Македония"/>
+  <tag k="old_name:bs" v="Makedonija"/>
+  <tag k="old_name:cs" v="Makedonie"/>
+  <tag k="old_name:cy" v="Macedonia"/>
+  <tag k="old_name:de" v="Mazedonien"/>
+  <tag k="old_name:el" v="Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας"/>
+  <tag k="old_name:en" v="Macedonia"/>
+  <tag k="old_name:eu" v="Mazedonia"/>
+  <tag k="old_name:fa" v="مقدونیه"/>
+  <tag k="old_name:fr" v="Macédoine"/>
+  <tag k="old_name:fy" v="Masedoanje"/>
+  <tag k="old_name:he" v="מקדוניה"/>
+  <tag k="old_name:hr" v="Makedonija"/>
+  <tag k="old_name:ja" v="マケドニア"/>
+  <tag k="old_name:mk" v="Македонија"/>
+  <tag k="old_name:nl" v="Macedonië"/>
+  <tag k="old_name:nn" v="Makedonia"/>
+  <tag k="old_name:no" v="Makedonia"/>
+  <tag k="old_name:rmy" v="Makedoniya"/>
+  <tag k="old_name:ro" v="Macedonia"/>
+  <tag k="old_name:sk" v="Macedónsko"/>
+  <tag k="old_name:sl" v="Makedonija"/>
+  <tag k="old_name:sq" v="Maqedoni"/>
+  <tag k="old_name:sr" v="Македонија"/>
+  <tag k="old_name:sr-Latn" v="Makedonija"/>
+  <tag k="old_name:tr" v="Makedonya Cumhuriyeti"/>
+  <tag k="old_name:uk" v="Македонія"/>
+  <tag k="old_name:ur" v="مقدونیہ"/>
+  <tag k="old_name:vi" v="Macedonia"/>
+  <tag k="old_name:zh" v="马其顿 / 馬其頓"/>
+  <tag k="old_name:zh-Hans" v="马其顿"/>
+  <tag k="old_name:zh-Hant" v="馬其頓"/>
+  <tag k="old_official_name" v="Република Македонија"/>
+  <tag k="old_official_name:ar" v="جمهورية مقدونيا"/>
+  <tag k="old_official_name:bg" v="Република Македония"/>
+  <tag k="old_official_name:bs" v="Republika Makedonija"/>
+  <tag k="old_official_name:ca" v="Antiga República Iugoslava de Macedònia"/>
+  <tag k="old_official_name:cs" v="Makedonská republika"/>
+  <tag k="old_official_name:cy" v="Gweriniaeth Macedonia"/>
+  <tag k="old_official_name:el" v="Δημοκρατία της Μακεδονίας"/>
+  <tag k="old_official_name:en" v="Republic of Macedonia"/>
+  <tag k="old_official_name:eu" v="Mazedoniako Errepublika"/>
+  <tag k="old_official_name:fa" v="جمهوری مقدونیه"/>
+  <tag k="old_official_name:fr" v="République de Macédoine"/>
+  <tag k="old_official_name:he" v="רפובליקת מקדוניה"/>
+  <tag k="old_official_name:hr" v="Republika Makedonija"/>
+  <tag k="old_official_name:it" v="Repubblica di Macedonia"/>
+  <tag k="old_official_name:mk" v="Република Македонија"/>
+  <tag k="old_official_name:sl" v="Republika Makedonija"/>
+  <tag k="old_official_name:sq" v="Republika e Maqedonisë"/>
+  <tag k="old_official_name:sr" v="Република Македонија"/>
+  <tag k="old_official_name:sr-Latn" v="Republika Makedonija"/>
+  <tag k="old_official_name:tr" v="Makedonya Cumhuriyeti"/>
+  <tag k="old_official_name:ur" v="جمہوریہ مقدونیہ"/>
+  <tag k="old_official_name:vi" v="Cộng hòa Macedonia"/>
+  <tag k="old_official_name:zh" v="马其顿共和国 / 馬其頓共和國"/>
+  <tag k="old_official_name:zh-Hans" v="马其顿共和国"/>
+  <tag k="old_official_name:zh-Hant" v="馬其頓共和國"/>
+  <tag k="old_short_name:el" v="ΠΓΔΜ"/>
+  <tag k="ref" v="MK"/>
+  <tag k="short_name:ca" v="Macedònia"/>
+  <tag k="short_name:en" v="Macedonia"/>
+  <tag k="short_name:hr" v="Makedonija"/>
+  <tag k="short_name:mk" v="Македонија"/>
+  <tag k="short_name:sl" v="Makedonija"/>
+  <tag k="short_name:zh" v="北马其顿 / 北馬其頓"/>
+  <tag k="source:name" v="Prespa agreement, which came into effect on 8 February 2019."/>
+  <tag k="timezone" v="Europe/Skopje"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q221"/>
+  <tag k="wikipedia" v="mk:Македонија"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="int_name" v="Ploštad Makedonija"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Плоштад Македонија"/>
+  <tag k="name:ar" v="إسكوبية"/>
+  <tag k="name:bg" v="Площад Македония"/>
+  <tag k="name:el" v="Πλατεία Μακεδονίας"/>
+  <tag k="name:en" v="Macedonia Square"/>
+  <tag k="name:fr" v="Place de Macédoine"/>
+  <tag k="place" v="square"/>
+  <tag k="smoothness" v="excellent"/>
+  <tag k="surface" v="paving_stones"/>
+  <tag k="tourism" v="attraction"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="admin_level" v="6"/>
+  <tag k="alt_name:vi" v="Thành phố Xcốp-pi-ê"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="ISO3166-2" v="MK-85"/>
+  <tag k="name" v="Град Скопје"/>
+  <tag k="name:ar" v="مدينة إسكوبية"/>
+  <tag k="name:de" v="Stadt Skopje"/>
+  <tag k="name:en" v="City of Skopje"/>
+  <tag k="name:fi" v="Skopjen kaupunki"/>
+  <tag k="name:fr" v="Ville de Skopje"/>
+  <tag k="name:grc" v="Πόλις τῶν Σκούπων"/>
+  <tag k="name:sq" v="Qyteti i Shkupit"/>
+  <tag k="name:sr" v="Град Скопље"/>
+  <tag k="name:ur" v="اسکوپیہ شہر"/>
+  <tag k="name:vi" v="Thành phố Skopje"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q2575820"/>
+  <tag k="wikipedia" v="mk:Град Скопје"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="int_name" v="Skopski Region"/>
+  <tag k="is_in:country_code" v="MK"/>
+  <tag k="name" v="Скопски СР"/>
+  <tag k="name:ar" v="مقاطعة إسكوبية"/>
+  <tag k="name:de" v="Region Skopje"/>
+  <tag k="name:en" v="Skopje Region"/>
+  <tag k="name:es" v="Región de Skopje"/>
+  <tag k="name:fr" v="Région de Skopje"/>
+  <tag k="name:pl" v="Region Skopijski"/>
+  <tag k="name:ro" v="Regiunea Skopje"/>
+  <tag k="name:ru" v="Скопский регион"/>
+  <tag k="name:sq" v="Rajoni i Shkupit"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q21115"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="amenity" v="bank"/>
+  <tag k="building" v="commercial"/>
+  <tag k="name" v="Capital Bank"/>
+  <tag k="name:en" v="UNIBank"/>
+  <tag k="office" v="company"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="website" v="http://www.unibank.com.mk/"/>
+  <tag k="wheelchair" v="no"/>
+  <tag k="admin_level" v="8"/>
+  <tag k="alt_name:ar" v="سكوبيه;سكوبجي"/>
+  <tag k="alt_name:fa" v="اسکوپیا"/>
+  <tag k="alt_name:vi" v="Xcốp-pi-ê"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="int_name" v="Skopje"/>
+  <tag k="name" v="Скопје"/>
+  <tag k="name:ar" v="إسكوبية"/>
+  <tag k="name:azb" v="ایسکوپیه"/>
+  <tag k="name:de" v="Skopje"/>
+  <tag k="name:el" v="Σκόπια"/>
+  <tag k="name:en" v="Skopje"/>
+  <tag k="name:eo" v="Skopjo"/>
+  <tag k="name:fa" v="اسکوپیه"/>
+  <tag k="name:fr" v="Skopje"/>
+  <tag k="name:grc" v="Σκοῦποι"/>
+  <tag k="name:it" v="Skopje"/>
+  <tag k="name:pt" v="Escópia"/>
+  <tag k="name:sq" v="Shkup"/>
+  <tag k="name:sr" v="Скопље"/>
+  <tag k="name:ur" v="اسکوپیہ"/>
+  <tag k="name:vi" v="Skopje"/>
+  <tag k="name:zh-Hans" v="斯科普里"/>
+  <tag k="name:zh-Hant" v="史高比耶"/>
+  <tag k="place" v="city"/>
+  <tag k="source" v="Cadastre"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q384"/>
+  <tag k="wikipedia" v="mk:Скопје"/>
+  <tag k="addr:city" v="Cкoпje"/>
+  <tag k="addr:city:en" v="Skopje"/>
+  <tag k="addr:country" v="MK"/>
+  <tag k="addr:housenumber" v="2"/>
+  <tag k="addr:postcode" v="1000"/>
+  <tag k="addr:street" v="11 Октомври"/>
+  <tag k="building" v="yes"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="contact:email" v="info@bsec-organization.org"/>
+  <tag k="contact:fax" v="+90 212 229 63 36"/>
+  <tag k="contact:phone" v="+90 212 229 63 30;+90 212 229 63 35"/>
+  <tag k="contact:website" v="http://www.bsec-organization.org/"/>
+  <tag k="name" v="Organization of the Black Sea Economic Cooperation"/>
+  <tag k="name:ar" v="منظمة التعاون الاقتصادي للبحر الأسود"/>
+  <tag k="name:az" v="Qara Dəniz İqtisadi Əməkdaşlıq Təşkilatı"/>
+  <tag k="name:be" v="Арганізацыя чарнаморскага эканамічнага супрацоўніцтва"/>
+  <tag k="name:bg" v="Организация за черноморско икономическо сътрудничество"/>
+  <tag k="name:ca" v="Cooperació Econòmica del Mar Negre"/>
+  <tag k="name:ce" v="ӀаьржахӀордан экономикин цхьаьнагӀуллакхдаран кхоллам"/>
+  <tag k="name:cs" v="Organizace černomořské ekonomické spolupráce"/>
+  <tag k="name:de" v="Schwarzmeer-Wirtschaftskooperation"/>
+  <tag k="name:el" v="Οργανισμός Οικονομικής Συνεργασίας του Ευξείνου Πόντου"/>
+  <tag k="name:en" v="Organization of the Black Sea Economic Cooperation"/>
+  <tag k="name:eo" v="Organizo por la Ekonomia Kunlaboro de la Nigra Maro"/>
+  <tag k="name:es" v="Cooperación Económica del Mar Negro"/>
+  <tag k="name:fa" v="سازمان همکاری اقتصادی دریای سیاه"/>
+  <tag k="name:fi" v="Mustanmeren talousjärjestö"/>
+  <tag k="name:fr" v="Organisation de coopération économique de la mer Noire"/>
+  <tag k="name:hi" v="काला सागर आर्थिक सहयोग"/>
+  <tag k="name:hu" v="Fekete-tengeri Gazdasági Együttműködés"/>
+  <tag k="name:hy" v="Սևծովյան տնտեսական համագործակցություն"/>
+  <tag k="name:id" v="Organisasi Kerja Sama Ekonomi Laut Hitam"/>
+  <tag k="name:it" v="Organizzazione della cooperazione economica del mar Nero"/>
+  <tag k="name:ja" v="黒海経済協力機構"/>
+  <tag k="name:ka" v="შავი ზღვის ეკონომიკური თანამშრომლობის ორგანიზაცია"/>
+  <tag k="name:ko" v="흑해 경제 협력 기구"/>
+  <tag k="name:ky" v="Кара деңиз Экономикалык Кызматташтыгы (КЭК)"/>
+  <tag k="name:la" v="Organizatio Cooperationis Oeconomicae Ponti Euxini"/>
+  <tag k="name:mo" v="Organizația de Cooperare Economică la Marea Neagră"/>
+  <tag k="name:nb" v="Organisasjonen for økonomisk samarbeid i svartehavsregionen"/>
+  <tag k="name:nl" v="Organisatie voor Economische Samenwerking in het Zwarte Zeegebied"/>
+  <tag k="name:oc" v="Organizacion de Cooperation Economica de la Mar Negra"/>
+  <tag k="name:pl" v="Organizacja Współpracy Gospodarczej Państw Morza Czarnego"/>
+  <tag k="name:pt" v="Organização de Cooperação Econômica do Mar Negro"/>
+  <tag k="name:ro" v="Organizația de Cooperare Economică la Marea Neagră"/>
+  <tag k="name:ru" v="Организация черноморского экономического сотрудничества"/>
+  <tag k="name:so" v="Ururka Iskaashiga Dhaqaalaha Badda Madow"/>
+  <tag k="name:sr" v="Организација за црноморску економску сарадњу"/>
+  <tag k="name:su" v="Organisasi Sabilulungan Ékonomi Laut Hideung"/>
+  <tag k="name:sv" v="Organisationen för ekonomiskt samarbete i Svartahavsområdet"/>
+  <tag k="name:tr" v="Karadeniz Ekonomik İşbirliği Örgütü"/>
+  <tag k="name:uk" v="Організація Чорноморського економічного співробітництва"/>
+  <tag k="name:vi" v="Tổ chức Hợp tác Kinh tế Biển Đen"/>
+  <tag k="name:zh" v="黑海经济合作组织"/>
+  <tag k="short_name" v="BSEC"/>
+  <tag k="short_name:bg" v="ОЧИС"/>
+  <tag k="short_name:mo" v="OCEMN"/>
+  <tag k="short_name:ro" v="OCEMN"/>
+  <tag k="short_name:tr" v="KEİ"/>
+  <tag k="type" v="treaty"/>
+  <tag k="wikidata" v="Q380340"/>
+  <tag k="wikipedia" v="en:Organization of the Black Sea Economic Cooperation"/>
+  <tag k="flag" v="https://upload.wikimedia.org/wikipedia/commons/3/37/Flag_of_NATO.svg"/>
+  <tag k="name" v="North Atlantic Treaty Organization / Organisation du traité de l'Atlantique nord"/>
+  <tag k="name:ar" v="حلف شمال الأطلسي"/>
+  <tag k="name:az-Arab" v="قۇزئی آتلانتیک مۆقاویله‌‌سی تشکیلاتؽ"/>
+  <tag k="name:azb" v="قۇزئی آتلانتیک مۆقاویله‌‌سی تشکیلاتؽ"/>
+  <tag k="name:bg" v="Организация на Северноатлантическия договор"/>
+  <tag k="name:de" v="Organisation des Nordatlantikvertrags"/>
+  <tag k="name:el" v="Οργανισμός Βορειοατλαντικού Συμφώνου"/>
+  <tag k="name:en" v="North Atlantic Treaty Organization"/>
+  <tag k="name:es" v="Organización del Tratado del Atlántico Norte"/>
+  <tag k="name:fi" v="Pohjois-Atlantin puolustusliitto"/>
+  <tag k="name:fr" v="Organisation du traité de l'Atlantique nord"/>
+  <tag k="name:fy" v="Noardatlantyske Ferdrachsorganisaasje"/>
+  <tag k="name:it" v="Organizzazione del Trattato dell'Atlantico del Nord"/>
+  <tag k="name:kk-Arab" v="سولتۇستىك اتلانتىيكالىق كەلىسىم ۇيىمى"/>
+  <tag k="name:lt" v="Šiaurės Atlanto Sutarties Organizacija"/>
+  <tag k="name:lv" v="Ziemeļatlantijas Līguma Organizācija"/>
+  <tag k="name:mk" v="Организација на Северноатлантски договор"/>
+  <tag k="name:nl" v="Noord-Atlantische Verdragsorganisatie"/>
+  <tag k="name:pl" v="Organizacja Traktatu Północnoatlantyckiego"/>
+  <tag k="name:sr" v="Организација Сјеверноатлантског споразума"/>
+  <tag k="name:sv" v="Nordatlantiska fördragsorganisationen"/>
+  <tag k="name:tr" v="Kuzey Atlantik Antlaşması Örgütü"/>
+  <tag k="name:ug" v="شىمالىي ئاتلانتىك ئەھدى تەشكىلاتى"/>
+  <tag k="name:uk" v="Організація Північноатлантичного договору"/>
+  <tag k="name:ur" v="تنظیم معاہدہ شمالی اوقیانوس"/>
+  <tag k="name:zh" v="北大西洋公约组织 / 北大西洋公約組織"/>
+  <tag k="name:zh-Hans" v="北大西洋公约组织"/>
+  <tag k="name:zh-Hant" v="北大西洋公約組織"/>
+  <tag k="short_name" v="NATO / OTAN"/>
+  <tag k="short_name:an" v="OTAN"/>
+  <tag k="short_name:ar" v="الناتو"/>
+  <tag k="short_name:ast" v="OTAN"/>
+  <tag k="short_name:bg" v="НАТО"/>
+  <tag k="short_name:ca" v="OTAN"/>
+  <tag k="short_name:co" v="OTAN"/>
+  <tag k="short_name:de" v="NATO"/>
+  <tag k="short_name:en" v="NATO"/>
+  <tag k="short_name:es" v="OTAN"/>
+  <tag k="short_name:ext" v="OTAN"/>
+  <tag k="short_name:fr" v="OTAN"/>
+  <tag k="short_name:frp" v="OTAN"/>
+  <tag k="short_name:fy" v="NAFO"/>
+  <tag k="short_name:gl" v="OTAN"/>
+  <tag k="short_name:gn" v="OTAN"/>
+  <tag k="short_name:ia" v="OTAN"/>
+  <tag k="short_name:it" v="OTAN"/>
+  <tag k="short_name:kbp" v="OTAN"/>
+  <tag k="short_name:kk" v="НАТО"/>
+  <tag k="short_name:lt" v="NATO"/>
+  <tag k="short_name:lv" v="NATO"/>
+  <tag k="short_name:mk" v="НАТО"/>
+  <tag k="short_name:mwl" v="OTAN"/>
+  <tag k="short_name:nap" v="OTAN"/>
+  <tag k="short_name:nl" v="NAVO"/>
+  <tag k="short_name:pa" v="ਨਾਟੋ"/>
+  <tag k="short_name:pl" v="NATO"/>
+  <tag k="short_name:sc" v="OTAN"/>
+  <tag k="short_name:sr" v="НАТО"/>
+  <tag k="short_name:sv" v="NATO"/>
+  <tag k="short_name:tr" v="NATO"/>
+  <tag k="short_name:uk" v="НАТО"/>
+  <tag k="short_name:zh" v="北約 / 北约"/>
+  <tag k="short_name:zh-Hans" v="北约"/>
+  <tag k="short_name:zh-Hant" v="北約"/>
+  <tag k="type" v="treaty"/>
+  <tag k="website" v="https://www.nato.int/"/>
+  <tag k="wikidata" v="Q7184"/>
+  <tag k="wikipedia" v="en:NATO"/>
+  <tag k="wikipedia:fr" v="Organisation du traité de l'Atlantique nord"/>
+  <tag k="wikipedia:uk" v="НАТО"/>
+  <tag k="name" v="Open Balkan"/>
+  <tag k="name:mk" v="Отворен Балкан"/>
+  <tag k="name:sq" v="Ballkan i Hapur"/>
+  <tag k="name:sr" v="Отворени Балкан"/>
+  <tag k="name:sr-Latn" v="Otvoreni Balkan"/>
+  <tag k="type" v="treaty"/>
+  <tag k="wikidata" v="Q96074700"/>
+START 5
+  <tag k="amenity" v="restaurant"/>
+  <tag k="cuisine" v="regional"/>
+  <tag k="building" v="yes"/>
+  <tag k="tourism" v="hotel"/>
+  <tag k="highway" v="unclassified"/>
+  <tag k="amenity" v="wine_cellar"/>
+  <tag k="craft" v="winery"/>
+  <tag k="int_name" v="Popova Kula"/>
+  <tag k="name" v="Попова Кула"/>
+  <tag k="shop" v="wine"/>
+  <tag k="tasting" v="yes"/>
+  <tag k="crop" v="grape"/>
+  <tag k="landuse" v="vineyard"/>
+  <tag k="highway" v="service"/>
+  <tag k="building" v="yes"/>
+  <tag k="landuse" v="village_green"/>
+  <tag k="highway" v="service"/>
+  <tag k="highway" v="service"/>
+  <tag k="landuse" v="vineyard"/>
+START 6
+  <tag k="addr:city" v="Veles"/>
+  <tag k="craft" v="winery"/>
+  <tag k="name" v="Chateau Sopot"/>
+  <tag k="name:mk" v="Шато Сопот"/>
+  <tag k="opening_hours" v="Mo-Su 09:00-22:00"/>
+  <tag k="phone" v="+389 78 663 300"/>
+  <tag k="amenity" v="restaurant"/>
+  <tag k="name:en" v="Château Sopot Winery"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="ref" v="L10104"/>
+  <tag k="name" v="Општински патишта (Велес)"/>
+  <tag k="name:en" v="Municipal roads (Veles)"/>
+  <tag k="ref" v="VE"/>
+  <tag k="type" v="network"/>
+  <tag k="network" v="mk:local"/>
+  <tag k="ref" v="L10104"/>
+  <tag k="route" v="road"/>
+  <tag k="type" v="route"/>
+START 7
+  <tag k="building" v="yes"/>
+  <tag k="craft" v="winery"/>
+  <tag k="name" v="Domaine Lepovo"/>
+  <tag k="landuse" v="vineyard"/>
+  <tag k="name:en" v="Lepovo"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="source" v="Bing"/>
+  <tag k="crop" v="grape"/>
+  <tag k="landuse" v="vineyard"/>
+  <tag k="highway" v="track"/>
+  <tag k="admin_level" v="7"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="int_name" v="Opština Kavadarci"/>
+  <tag k="ISO3166-2" v="MK-104"/>
+  <tag k="name" v="Општина Кавадарци"/>
+  <tag k="name:el" v="Δήμος Καβάνταρτσι"/>
+  <tag k="name:en" v="Municipality of Kavadarci"/>
+  <tag k="name:pl" v="gmina Kawadarce"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q1155055"/>
+  <tag k="wikipedia" v="mk:Општина Кавадарци"/>
+  <tag k="admin_level" v="7"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="int_name" v="Opština Negotino"/>
+  <tag k="ISO3166-2" v="MK-106"/>
+  <tag k="name" v="Општина Неготино"/>
+  <tag k="name:el" v="Δήμος Νεγκότινο"/>
+  <tag k="name:en" v="Municipality of Negotino"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q3246545"/>
+  <tag k="wikipedia" v="mk:Општина Неготино"/>
+  <tag k="admin_level" v="8"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="int_name" v="Sopot"/>
+  <tag k="name" v="Сопот"/>
+  <tag k="name:en" v="Sopot"/>
+  <tag k="place" v="village"/>
+  <tag k="source" v="Cadastre"/>
+  <tag k="type" v="boundary"/>
+  <tag k="admin_level" v="8"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="int_name" v="Kurija"/>
+  <tag k="name" v="Курија"/>
+  <tag k="name:en" v="Kurija"/>
+  <tag k="place" v="village"/>
+  <tag k="source" v="Cadastre"/>
+  <tag k="type" v="boundary"/>
+  <tag k="admin_level" v="8"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="int_name" v="Crveni Bregovi"/>
+  <tag k="name" v="Црвени Брегови"/>
+  <tag k="name:en" v="Crveni Bregovi"/>
+  <tag k="place" v="village"/>
+  <tag k="source" v="Cadastre"/>
+  <tag k="type" v="boundary"/>
+START 8
+  <tag k="highway" v="service"/>
+  <tag k="natural" v="wood"/>
+  <tag k="landuse" v="vineyard"/>
+  <tag k="building" v="yes"/>
+  <tag k="craft" v="winery"/>
+  <tag k="name" v="Камник"/>
+  <tag k="tourism" v="wine_cellar"/>
+  <tag k="amenity" v="parking"/>
+START 9
+  <tag k="addr:housenumber" v="7"/>
+  <tag k="addr:street" v="1519"/>
+  <tag k="building" v="yes"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="1519"/>
+  <tag k="name" v="Златен Бенз"/>
+  <tag k="shop" v="car_repair"/>
+  <tag k="landuse" v="farmland"/>
+  <tag k="landuse" v="industrial"/>
+  <tag k="landuse" v="meadow"/>
+  <tag k="natural" v="scrub"/>
+  <tag k="landuse" v="meadow"/>
+  <tag k="addr:housenumber" v="1 A"/>
+  <tag k="addr:street" v="1519"/>
+  <tag k="name" v="Мазак Ауто Сервис"/>
+  <tag k="shop" v="car_repair"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="4"/>
+  <tag k="highway" v="residential"/>
+  <tag k="addr:housenumber" v="7"/>
+  <tag k="addr:street" v="1519"/>
+  <tag k="building" v="commercial"/>
+  <tag k="name" v="Kartal Winery Винарската визба КАРТАЛ"/>
+START 10
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Прилепска"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Игман"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Словенска"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="R1103"/>
+  <tag k="landuse" v="industrial"/>
+  <tag k="name" v="Тиквеш"/>
+  <tag k="name:en" v="Tikvesh"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="highway" v="residential"/>
+  <tag k="highway" v="residential"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Косовска"/>
+  <tag k="highway" v="residential"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="R1103"/>
+  <tag k="addr:city" v="Кавадарци"/>
+  <tag k="addr:housenumber" v="16"/>
+  <tag k="addr:postcode" v="1430"/>
+  <tag k="addr:street" v="Косовска"/>
+  <tag k="building" v="yes"/>
+  <tag k="country" v="MKD"/>
+  <tag k="craft" v="winery"/>
+  <tag k="name" v="Zaharchev Winery and Distillery"/>
+  <tag k="name:mk" v="Семејна винарија „Захарчев“"/>
+  <tag k="opening_hours" v="Mo-Su 08:00-22:00"/>
+  <tag k="operator" v="SJ"/>
+  <tag k="phone" v="070 253 103"/>
+  <tag k="website" v="https://www.zaharchev.mk/"/>
+  <tag k="from" v="Lakavica"/>
+  <tag k="network" v="mk:national"/>
+  <tag k="ref" v="R1103"/>
+  <tag k="route" v="road"/>
+  <tag k="to" v="Drenovo"/>
+  <tag k="type" v="route"/>
+  <tag k="wikidata" v="Q104531746"/>
+
+Process finished with exit code 0
