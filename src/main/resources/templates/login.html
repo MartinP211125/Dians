@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Log in</title>
+<body>
+
+<div class="background">
+    <form method="post" action="/login">
+        <p>
+            <label for="username" class="sr-only">Username</label>
+            <input type="text" id="username" name="username" class="form-control" placeholder="Username" required=""
+                   autofocus="">
+        </p>
+        <p>
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" id="password" name="password" class="form-control" placeholder="Password"
+                   required="">
+        </p>
+
+        <th:block th:if="${hasError}">
+            <div th:text="${error}" class="text-danger"></div>
+        </th:block>
+
+        <div class="row">
+            <div class="col-md-3">
+                <button id="submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            </div>
+            <div class="col-md-3">
+                <a href="/register" class="btn btn-lg btn-block btn-light">Register here</a>
+            </div>
+        </div>
+
+    </form>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</body>
+</html>
