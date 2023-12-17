@@ -1,0 +1,11 @@
+ID, Name, Address, Phone, website, Opening Hours, Lat, Lon
+0,Zaharchev Winery and Distillery,Кавадарци,070 253 103,https://www.zaharchev.mk/,Mo-Su 8:00-22:00,41.4360593781933,22.004858184157175
+1,Бовин винарија,Неготино,043 365 322,http://www.bovin.com.mk,Mo-Fr 8:00-16:00,41.49353303413152,22.093228698543047
+2,Vinarija Stobi,Росоман,078 221 427,https://en.eurovelo.com/ev11/fyro-macedonia,Мо-Su 10:00-18:00,41.58633107430898,21.9370593128735
+3,monastery winery,Охрид,+389 78474656,https://monasterywinery.com,Mo-Su 8:00-23:00,41.184956559355975,20.877323898941523
+4,Сковин,Cкoпje,+389 2 510 2510,https://www.nato.int/,24/7,41.98594078270854,21.466453009199938
+5,Попова Кула,Демир Капија,076 432 630,popovakula.com.mk,Mo-Fr 8:00-16:00,41.41125451090669,22.2265825299745
+6,Château Sopot Winery,Велес,+389 78 663 300,Not specified,Mo-Su 9:00-22:00,41.77792214307835,21.741057892776865
+7,Domaine Lepovo,Неготино,02 318 1741,domeinelepovo.com,Not specified,41.5177200246847,22.034484429742953
+8,Камник,Скопје,070 343 488,https://chateaukamnik.com/,Mo-Su 8:00-16:00,42.00834225977658,21.49032865677962
+9,Kartal Winery,Скопје,070 242 419,kartal.com.mk,Mo-Sa 12:00-16:00,41.96270688438765,21.476752756460577
