@@ -10,19 +10,12 @@ import mk.ukim.finki.dians.model.User;
 
 import java.io.IOException;
 
-@WebFilter(filterName = "auth-filter", urlPatterns = "/*",
-        dispatcherTypes = {DispatcherType.REQUEST, DispatcherType.FORWARD},
-        initParams = {
-                @WebInitParam(name = "login-path", value = "/login"),
-                @WebInitParam(name = "register-path", value = "/register")
-        })
+@WebFilter(filterName = "auth-filter", urlPatterns = "/*", dispatcherTypes = {DispatcherType.REQUEST, DispatcherType.FORWARD})
 public class LoginFilter implements Filter {
 
-    private String loginPath;
-    private String registerPath;
 
     @Override
-    public void init(FilterConfig filterConfig) throws ServletException {
+    public void init(FilterConfig filterConfig) {
     }
 
     @Override
@@ -31,7 +24,7 @@ public class LoginFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         User user = (User) request.getSession().getAttribute("user");
         String path = request.getServletPath();
-        if (path.startsWith("/login") || path.startsWith("/register") || user != null) {
+        if (path.startsWith("/login") || path.startsWith("/register") || user != null || path.startsWith("/regCss.css")) {
             System.out.println("WebFilter preprocessing...");
             filterChain.doFilter(servletRequest, servletResponse);
             System.out.println("WebFilter postprocessing...");

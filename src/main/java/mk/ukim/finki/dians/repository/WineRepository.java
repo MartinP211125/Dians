@@ -19,6 +19,6 @@ public class WineRepository {
     }
 
     public Optional<Wine> findByName(String name){
-        return DataHolder.wines.stream().filter(r -> r.getName().equals(name)).findFirst();
+        return DataHolder.wines.stream().filter(r -> r.getName().toLowerCase().contains(name.toLowerCase())).findFirst();
     }
 }

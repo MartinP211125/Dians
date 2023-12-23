@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Register Page</title>
+<!--    <link rel="stylesheet" th:href="@{../static/css/regCss.css}">-->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section h1 {
+            margin: 0;
+        }
+
+        div {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        a {
+            text-align: center;
+            display: block;
+            margin-top: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        a:hover {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div>
+        <form method="post" action="/register">
+            <h2>Register</h2>
+            <p>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Username" required="" autofocus="">
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password" required="">
+            </p>
+            <p>
+                <label for="repeatedPassword">Repeat Password</label>
+                <input type="password" id="repeatedPassword" name="repeatedPassword" placeholder="Repeat Password" required="">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="email@mail.com" required="" autofocus="">
+            </p>
+
+            <th:block th:if="${hasError}">
+                <div th:text="${error}"></div>
+            </th:block>
+            <input type="submit" value="Register">
+        </form>
+        <a href="/login" class="btn btn-block btn-light">Already have an account? Login here!</a>
+    </div>
+</div>
+</body>
+</html>

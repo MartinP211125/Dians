@@ -4,6 +4,7 @@ import mk.ukim.finki.dians.model.User;
 import mk.ukim.finki.dians.model.exceptions.InvalidArgumentsException;
 import mk.ukim.finki.dians.model.exceptions.PasswordsDoNotMatchException;
 import mk.ukim.finki.dians.repository.UserRepository;
+import mk.ukim.finki.dians.repository.jpa.UserRepositoryJpa;
 import mk.ukim.finki.dians.service.AuthenticationService;
 import org.springframework.stereotype.Service;
 import mk.ukim.finki.dians.model.exceptions.InvalidUserCredentialsException;
@@ -13,9 +14,9 @@ import java.util.List;
 @Service
 public class AuthenticationServiceImp implements AuthenticationService {
 
-    private final UserRepository userRepository;
+    private final UserRepositoryJpa userRepository;
 
-    public AuthenticationServiceImp(UserRepository userRepository) {
+    public AuthenticationServiceImp(UserRepositoryJpa userRepository) {
         this.userRepository = userRepository;
     }
 
@@ -44,9 +45,9 @@ public class AuthenticationServiceImp implements AuthenticationService {
         if (!password.equals(repeatPassword)) {
             throw new PasswordsDoNotMatchException();
         }
-        //String username, String password, String email, Double lat, Double lon) {
+
         User user = new User(username, password, email);
-        return userRepository.saveOrUpdate(user);
+        return userRepository.save(user);
 
     }
 
