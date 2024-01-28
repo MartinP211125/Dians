@@ -5,7 +5,7 @@ FROM openjdk:17
 WORKDIR /mainapp
 
 # Copy the JAR file into the container at /app
-COPY out/artifacts/fineWine_jar/fineWine.jar /mainapp/
+COPY target/fineWine.jar /mainapp/
 
 # Expose the port your application will run on
 EXPOSE 8081

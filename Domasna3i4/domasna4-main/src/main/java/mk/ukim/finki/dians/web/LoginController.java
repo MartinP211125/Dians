@@ -14,8 +14,6 @@ public class LoginController {
 
     private final RestTemplate restTemplate;
 
-    @Value("${auth.microservice.url}")
-    private String authMicroserviceUrl;
 
     public LoginController(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
@@ -33,6 +31,7 @@ public class LoginController {
         String password = request.getParameter("password");
 
         // Make a request to the authentication microservice
+        String authMicroserviceUrl = "https://auth.thankfultree-7be29bbc.westeurope.azurecontainerapps.io/auth";
         String authMicroserviceEndpoint = authMicroserviceUrl + "/login";
 
         // Set the content type in the headers

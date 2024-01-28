@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 @ServletComponentScan
 public class FineWineApplication {
 
-    public static final String AUTH_MICROSERVICE_BASE_URL = "http://localhost:8080/auth";
+    public static final String AUTH_MICROSERVICE_BASE_URL = "https://auth.thankfultree-7be29bbc.westeurope.azurecontainerapps.io/auth";
     public static void main(String[] args) {
         SpringApplication.run(FineWineApplication.class, args);
     }

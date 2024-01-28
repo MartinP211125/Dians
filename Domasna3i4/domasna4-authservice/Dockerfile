@@ -5,7 +5,7 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy the JAR file into the container at /app
-COPY out/artifacts/AuthMicroService_jar/AuthMicroService.jar /app/
+COPY target/AuthMicroService.jar /app/
 
 # Expose the port your application will run on
 EXPOSE 8080

@@ -25,9 +25,7 @@ public class LoginFilter implements Filter {
         String path = request.getServletPath();
 
         if (path.startsWith("/login") || path.startsWith("/register") || username != null || path.startsWith("/regCss.css")) {
-            System.out.println("WebFilter preprocessing...");
             filterChain.doFilter(servletRequest, servletResponse);
-            System.out.println("WebFilter postprocessing...");
         } else {
             response.sendRedirect("/login");
         }

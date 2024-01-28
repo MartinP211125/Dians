@@ -15,8 +15,6 @@ public class RegisterController {
 
     private final RestTemplate restTemplate;
 
-    @Value("${auth.microservice.url}")
-    private String authMicroserviceUrl;
 
     public RegisterController(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
@@ -39,6 +37,7 @@ public class RegisterController {
                            @RequestParam String repeatedPassword,
                            @RequestParam String email) {
         // Make a request to the authentication microservice for registration
+        String authMicroserviceUrl = "https://auth.thankfultree-7be29bbc.westeurope.azurecontainerapps.io/auth";
         String authMicroserviceEndpoint = authMicroserviceUrl + "/register";
 
         HttpHeaders headers = new HttpHeaders();
