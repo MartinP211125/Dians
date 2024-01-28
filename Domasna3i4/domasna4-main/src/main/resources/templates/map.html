@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            /*box-sizing: border-box;*/
+            /*overflow: hidden;*/
+        }
+
+        .header {
+            height: 60px;
+            background-color: grey;
+            justify-content: flex-start;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .header .wine {
+            padding-top: 15px;
+        }
+
+        .header h3 {
+            font-size: 30px;
+            position: absolute;
+            left: 160px;
+        }
+
+        .header .fine {
+            color: #fff;
+        }
+
+        .header .wine-text {
+            color: red;
+        }
+
+        .header .search-logo {
+            padding-top: 25px;
+            position: absolute;
+            right: 250px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: grey;
+            height: 50px;
+            padding-top: 20px;
+        }
+
+        footer a {
+            margin-left: 50px;
+            text-transform: uppercase;
+            font-size: 20px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        footer a:hover {
+            color: darkred;
+        }
+
+        #map{
+            height: 800px;
+        }
+        .fine .wine-text{
+            position: absolute;
+            left: 60px;
+        }
+
+        .search-logo{
+            position: absolute;
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h3><span class="fine">Fine</span><span class="wine-text">Wine</span></h3>
+    <form class="search-logo" action="/api/wines" method="get">
+        <label for="wineName">Enter Winery Name:</label>
+        <input type="text" id="wineName" name="name">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<div id="map"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const map = L.map('map').setView([41.679, 21.357], 8);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        let routingControl;
+        let latestLocation;
+
+        function addMarkers(pos) {
+            const lat = pos.coords.latitude;
+            const lon = pos.coords.longitude;
+
+            map.setView([lat, lon], 15);
+            L.marker([lat, lon]).addTo(map).bindPopup("Your Location");
+
+            latestLocation = { lat, lon };
+
+            fetch('/api/wines')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    map.eachLayer(layer => {
+                        if (layer instanceof L.Marker) {
+                            map.removeLayer(layer);
+                        }
+                    });
+
+                    if (Array.isArray(data)) {
+                        data.forEach(wine => {
+                            addMarkerToMap(wine);
+                        });
+                    } else {
+                        addMarkerToMap(data);
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        navigator.geolocation.watchPosition(addMarkers, function (err) {
+            if (err.code === 1) {
+                alert("Please allow geolocation access");
+            } else {
+                alert("Cannot get current location");
+            }
+        });
+
+        document.querySelector('form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const wineName = document.getElementById('wineName').value;
+
+            fetch(`/api/wines?name=${wineName}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    map.eachLayer(layer => {
+                        if (layer instanceof L.Marker) {
+                            map.removeLayer(layer);
+                        }
+                    });
+
+                    if (Array.isArray(data)) {
+                        data.forEach(wine => {
+                            addMarkerToMap(wine);
+                        });
+                    } else {
+                        addMarkerToMap(data);
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+
+        function addMarkerToMap(wine) {
+            const { lat, lon, name, address, phone, urlWeb, openingHours } = wine;
+
+            const popupContent = `
+                <b>${name}</b><br>
+                ${address}<br>
+                ${phone}<br>
+                ${urlWeb}<br>
+                ${openingHours}<br>
+                <button class="get-route-button">Get Route</button>`;
+
+            const wineMarker = L.marker([lat, lon]).addTo(map);
+            wineMarker.bindPopup(popupContent);
+
+            wineMarker.on('popupopen', function () {
+                const getRouteButton = document.querySelector('.get-route-button');
+                if (getRouteButton) {
+                    getRouteButton.addEventListener('click', function () {
+                        getRoute(lat, lon);
+                    });
+                }
+            });
+        }
+
+        function getRoute(lat, lon) {
+            if (latestLocation) {
+                const startingLocation = L.latLng(latestLocation.lat, latestLocation.lon);
+                const destinationPoint = L.latLng(lat, lon);
+
+                if (routingControl) {
+                    map.removeControl(routingControl);
+                }
+
+                map.eachLayer(layer => {
+                    if (layer instanceof L.Marker) {
+                        map.removeLayer(layer);
+                    }
+                });
+
+                L.marker(startingLocation).addTo(map).bindPopup("Your Location");
+                L.marker(destinationPoint).addTo(map).bindPopup("Selected Location");
+
+                routingControl = L.Routing.control({
+                    waypoints: [
+                        startingLocation,
+                        destinationPoint
+                    ],
+                    routeWhileDragging: true,
+                    formatInstruction: function (instruction, index) {
+                        return instruction.distance.toFixed(2) + ' km, ' + instruction.time;
+                    }
+                }).addTo(map);
+
+                map.invalidateSize();
+            } else {
+                alert("Waiting for location update. Please try again.");
+            }
+        }
+    });
+</script>
+<footer>
+    <a th:href="@{/map/contact-us}">Contact us</a>
+    <a th:href="@{/map/creators}">Creatros</a>
+</footer>
+</body>
+</html>
