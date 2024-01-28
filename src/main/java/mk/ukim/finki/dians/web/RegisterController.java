@@ -1,28 +1,30 @@
 package mk.ukim.finki.dians.web;
 
-import mk.ukim.finki.dians.model.exceptions.InvalidArgumentsException;
-import mk.ukim.finki.dians.model.exceptions.PasswordsDoNotMatchException;
-import mk.ukim.finki.dians.service.AuthenticationService;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 @Controller
 @RequestMapping("/register")
 public class RegisterController {
 
-    private final AuthenticationService authService;
+    private final RestTemplate restTemplate;
 
-    public RegisterController(AuthenticationService authService) {
-        this.authService = authService;
+    @Value("${auth.microservice.url}")
+    private String authMicroserviceUrl;
+
+    public RegisterController(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
     }
 
     @GetMapping
     public String getRegisterPage(@RequestParam(required = false) String error, Model model) {
-        if(error != null && !error.isEmpty()) {
+        if (error != null && !error.isEmpty()) {
             model.addAttribute("hasError", true);
             model.addAttribute("error", error);
         }
@@ -36,11 +38,24 @@ public class RegisterController {
                            @RequestParam String password,
                            @RequestParam String repeatedPassword,
                            @RequestParam String email) {
-        try{
-            this.authService.register(username, password, repeatedPassword, email);
+        // Make a request to the authentication microservice for registration
+        String authMicroserviceEndpoint = authMicroserviceUrl + "/register";
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+
+        // Customize this based on how your microservice expects the registration request
+        String registerRequestBody = "{\"username\":\"" + username + "\",\"password\":\"" + password +
+                "\",\"repeatPassword\":\"" + repeatedPassword + "\",\"email\":\"" + email + "\"}";
+        HttpEntity<String> requestEntity = new HttpEntity<>(registerRequestBody, headers);
+
+        String response = restTemplate.postForObject(authMicroserviceEndpoint, requestEntity, String.class);
+
+        // Process the response and handle success/failure accordingly
+        if ("User registered successfully".equals(response)) {
             return "redirect:/login";
-        } catch (InvalidArgumentsException | PasswordsDoNotMatchException exception) {
-            return "redirect:/register?error=" + exception.getMessage();
+        } else {
+            return "redirect:/register?error=" + response;
         }
     }
 }

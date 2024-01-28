@@ -13,7 +13,6 @@ import java.io.IOException;
 @WebFilter(filterName = "auth-filter", urlPatterns = "/*", dispatcherTypes = {DispatcherType.REQUEST, DispatcherType.FORWARD})
 public class LoginFilter implements Filter {
 
-
     @Override
     public void init(FilterConfig filterConfig) {
     }
@@ -22,9 +21,10 @@ public class LoginFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
-        User user = (User) request.getSession().getAttribute("user");
+        String username = (String) request.getSession().getAttribute("username");
         String path = request.getServletPath();
-        if (path.startsWith("/login") || path.startsWith("/register") || user != null || path.startsWith("/regCss.css")) {
+
+        if (path.startsWith("/login") || path.startsWith("/register") || username != null || path.startsWith("/regCss.css")) {
             System.out.println("WebFilter preprocessing...");
             filterChain.doFilter(servletRequest, servletResponse);
             System.out.println("WebFilter postprocessing...");
