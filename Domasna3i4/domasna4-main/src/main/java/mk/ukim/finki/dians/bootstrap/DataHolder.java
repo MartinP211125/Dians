@@ -5,11 +5,10 @@ import mk.ukim.finki.dians.model.User;
 import mk.ukim.finki.dians.model.Wine;
 import org.springframework.stereotype.Component;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 @Component
 public class DataHolder {
@@ -37,13 +36,17 @@ public class DataHolder {
         openingHours = new ArrayList<>();
         lat = new ArrayList<>();
         lon = new ArrayList<>();
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("/home/martin/IdeaProjects/fineWine/src/main/java/mk/ukim/finki/dians/bootstrap/output.txt"));
+        InputStream inputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("Data/output.txt");
+        assert inputStream!=null;
+        Scanner scanner = new Scanner(inputStream);
 
-        String[] columnNames = bufferedReader.readLine().split(",");
+        //String[] columnNames = bufferedReader.nextLine().split(",");
 
         String line;
-        while ((line = bufferedReader.readLine()) != null)   //returns a Boolean value
+        scanner.nextLine();
+        while (scanner.hasNextLine())   //returns a Boolean value
         {
+            line = scanner.nextLine();
             String[] parts = line.split(",");
             id.add(Long.valueOf(parts[0]));
             name.add(parts[1]);
